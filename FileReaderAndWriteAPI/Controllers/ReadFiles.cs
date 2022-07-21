@@ -1,11 +1,8 @@
 ﻿using FileReaderAndWriteAPI.FileReaderAndWriter;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-using System.Linq;
 using System.Text.Json;
-using System.Text.Json.Serialization;
+
 
 namespace FileReaderAndWriteAPI.Controllers
 {

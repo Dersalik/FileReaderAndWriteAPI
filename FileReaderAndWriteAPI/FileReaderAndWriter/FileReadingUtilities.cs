@@ -21,7 +21,7 @@ namespace FileReaderAndWriteAPI.FileReaderAndWriter
                     var extension = info.Extension;
                     String? type;
                 //
-            //in order to prevent the programming confusing any dot with extension the attribute of the file
+            //in order to prevent the program confusing any dot with extension the attribute of the file
             //has to be checked
                 FileAttributes attr = File.GetAttributes(file);
 
